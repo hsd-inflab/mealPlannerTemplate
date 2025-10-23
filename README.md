@@ -7,12 +7,15 @@ how to download:
 
 or via git clone
 
+
+
 **Project Structure:**
 
 `src/main/java`
 
   `/frontend`: all JavaFX components and anything related
-    `/pages`:  all rendered frontend pages
+  
+  `/frontend/pages`:  all rendered frontend pages
 
   `/hsd/inflab/smp`: Main.java (program entry point)
 
@@ -20,6 +23,10 @@ or via git clone
 
   `/services`: classes that provide some type of service within the program
 
+
+
 `src/main/java/resources`: persistence data and configuration files
+
+
 
 `src/test/java`: Unit Tests 
